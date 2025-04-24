@@ -31,9 +31,9 @@ Security Features: Use AI for safety alerts and travel assistance.
 
 
 # Tech Stack:
-Frontend: React.js with Tailwind CSS
-Backend: Express.js (Node.js)
-AI Models: TensorFlow/PyTorch for route optimization and traffic prediction
+1. Frontend: React.js with Tailwind CSS
+2. Backend: Express.js (Node.js)
+3. AI Models: TensorFlow/PyTorch for route optimization and traffic prediction
 Database: MongoDB (for transport data, user info), Redis (caching)
 Cloud & Hosting: AWS, Google Cloud, or Firebase
 Map Integration: MapmyIndia SDK for navigation and mapping
