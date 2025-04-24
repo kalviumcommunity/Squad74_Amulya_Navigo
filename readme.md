@@ -34,10 +34,10 @@ Security Features: Use AI for safety alerts and travel assistance.
 1. Frontend: React.js with Tailwind CSS
 2. Backend: Express.js (Node.js)
 3. AI Models: TensorFlow/PyTorch for route optimization and traffic prediction
-Database: MongoDB (for transport data, user info), Redis (caching)
-Cloud & Hosting: AWS, Google Cloud, or Firebase
-Map Integration: MapmyIndia SDK for navigation and mapping
-Payment Integration: Razorpay, UPI, Stripe for ticket booking
-Authentication: Firebase Auth or OAuth
+4. Database: MongoDB (for transport data, user info), Redis (caching)
+5. Cloud & Hosting: AWS, Google Cloud, or Firebase
+6. Map Integration: MapmyIndia SDK for navigation and mapping
+7. Payment Integration: Razorpay, UPI, Stripe for ticket booking
+8. Authentication: Firebase Auth or OAuth
 
 
