@@ -41,3 +41,38 @@ Security Features: Use AI for safety alerts and travel assistance.
 8. Authentication: Firebase Auth or OAuth
 
 
+## Project Roadmap & Milestones 
+# Day 1-5: Planning & Initial Setup
+✅ Define Core Features and finalize MVP.
+✅ Research APIs for navigation, transport schedules, and payments.
+✅ Design detailed wireframes for all key screens.
+✅ Set up project repository and initialize backend (Express.js).
+# Day 6-10: Core System Setup
+✅ Develop authentication system with Firebase Auth/OAuth.
+✅ Set up React.js frontend with Tailwind CSS and navigation flow.
+✅ Define database models in MongoDB.
+✅ Establish backend APIs for user authentication and transport data.
+# Day 11-20: Core Development – Frontend & Backend
+✅ Implement MapmyIndia integration for real-time transport tracking.
+✅ Develop UI for transport booking, searching routes, and payments.
+✅ Backend: Develop APIs for transport data, ticket bookings, and payments.
+✅ Implement offline mode for essential map functions.
+✅ AI: Implement basic AI-powered route suggestions.
+# Day 21-30: AI & Advanced Features
+✅ Train AI models for real-time route adjustments and congestion predictions.
+✅ Integrate payment gateways for seamless ticket booking.
+✅ Implement delay notifications, crowd predictions, and smart travel alerts.
+✅ Develop carpooling and ride-sharing features.
+✅ Refine offline mode functionality.
+# Day 31-35: Testing & Refinements
+✅ Unit Testing: Ensure core functions like booking, AI predictions, and transport data fetching work correctly.
+✅ Integration Testing: Verify smooth transitions between route search, booking, and payments.
+✅ UI/UX Testing: Gather feedback and refine designs.
+✅ Performance Optimization: Speed up transport data retrieval and map interactions.
+# Day 36-40: Finalization & Documentation
+✅ Conduct extensive testing to ensure app stability.
+✅ Finalize project documentation and API references.
+✅ Polish UI/UX and ensure accessibility features work correctly.
+✅ Prepare for portfolio showcase and resume integration.
+✅ Navigo is fully functional and documented
+
