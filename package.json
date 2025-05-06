@@ -1,0 +1,20 @@
+{
+  "name": "squad74_amulya_navigo",
+  "version": "1.0.0",
+  "description": "An AI-powered public transport and navigation app that optimizes routes, provides real-time transit updates, and enables seamless ticket booking for smarter, hassle-free commuting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalviumcommunity/Squad74_Amulya_Navigo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalviumcommunity/Squad74_Amulya_Navigo/issues"
+  },
+  "homepage": "https://github.com/kalviumcommunity/Squad74_Amulya_Navigo#readme"
+}
