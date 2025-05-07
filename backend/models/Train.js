@@ -1,11 +1,42 @@
 const mongoose = require('mongoose');
 
 const trainSchema = new mongoose.Schema({
-  trainNumber: String,
-  source: String,
-  destination: String,
-  departureTime: String,
-  arrivalTime: String
+  trainNumber: {
+    type: String,
+    required: true
+  },
+  trainName: {
+    type: String,
+    required: true
+  },
+  source: {
+    type: String,
+    required: true
+  },
+  destination: {
+    type: String,
+    required: true
+  },
+  departureTime: {
+    type: String,
+    required: true
+  },
+  arrivalTime: {
+    type: String,
+    required: true
+  },
+  fare: {
+    type: Number,
+    default: 0
+  },
+  coachTypes: {
+    type: [String], 
+    default: []
+  },
+  runningDays: {
+    type: [String], 
+    default: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+  }
 });
 
 module.exports = mongoose.model('Train', trainSchema);
