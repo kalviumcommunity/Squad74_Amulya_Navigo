@@ -76,3 +76,11 @@ Security Features: Use AI for safety alerts and travel assistance.
 ✅ Prepare for portfolio showcase and resume integration.
 ✅ Navigo is fully functional and documented
 
+
+
+## Backend-Deployment link: 
+https://squad74-amulya-navigo-1.onrender.com
+
+
+
+
