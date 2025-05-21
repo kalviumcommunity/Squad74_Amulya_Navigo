@@ -36,7 +36,11 @@ const trainSchema = new mongoose.Schema({
   runningDays: {
     type: [String], 
     default: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-  }
+  },
+  users: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User'
+  }]
 });
 
 module.exports = mongoose.model('Train', trainSchema);

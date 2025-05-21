@@ -17,7 +17,15 @@ const userSchema = new mongoose.Schema({
   createdAt: {
     type: Date,
     default: Date.now
-  }
+  },
+  bookedBuses: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Bus'
+  }],
+  bookedTrains: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Train'
+  }]
 });
 
 module.exports = mongoose.model('User', userSchema);

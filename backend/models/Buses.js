@@ -33,7 +33,11 @@ const busSchema = new mongoose.Schema({
     type: String,
     enum: ['Daily', 'Weekdays', 'Weekends'],
     default: 'Daily'
-  }
+  },
+  users: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User'
+  }]
 });
 
 module.exports = mongoose.model('Bus', busSchema);
